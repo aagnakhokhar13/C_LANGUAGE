@@ -15,9 +15,8 @@ main(){
      printf("Enter the TA \n");
     scanf("%d",&TA);
 
-    GROSS=SALARY+HRA+DA+TA;
+    GROSS=SALARY+(SALARY*HRA/100)+(SALARY*DA/100)+(SALARY*TA/100);
     printf("GROSS =%d",GROSS);
 
 }
-
 
