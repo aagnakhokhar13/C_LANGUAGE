@@ -7,7 +7,7 @@ int main(){
 	int no,i;
  struct Emp e[50];
  printf("How many record add:-");
- scanf("%d\n",&no);
+ scanf("%d",&no);
  for(i=0;i<no;i++){
  	printf("Enter Emp id:-\n");
  	scanf("%d",&e[i].id);
