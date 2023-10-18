@@ -16,7 +16,7 @@ int main(){
 
 
 	
-	printf("\n------------Print Employee-------------");
+	printf("\n------------Print student-------------");
 	printf("\n ID:-%d\n",s[i].id);
 	printf("\n NAME:-%s\n",s[i].name);
 	printf("\nAGE:-%d\n",s[i].age);
