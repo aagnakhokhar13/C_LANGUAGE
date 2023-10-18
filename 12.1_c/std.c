@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-struct emp {
+struct stud {
 	int id,age,std,no;
 	char name[50];
 	char course[10];
